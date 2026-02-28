@@ -24,3 +24,23 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* modified stuff yay */
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.plants {
+  padding: 16px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.plant {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: baseline;
+  text-align: center;
+}
