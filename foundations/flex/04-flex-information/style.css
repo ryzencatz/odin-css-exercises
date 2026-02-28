@@ -26,21 +26,30 @@ img {
 }
 
 /* modified stuff yay */
+body {
+  /* we could just do this since all of the text here has to be centered */
+  text-align: center;  
+}
 .title {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
+  margin-bottom: 16px;
 }
 .plants {
-  padding: 16px;
   display: flex;
-  justify-content: space-evenly;
+  /* this way, it's always aligned to the center and has a bigger gap 
+  around it and a smaller one between the items */
+  justify-content: center;
+  gap: 50px;
 }
 .plant {
-  width: 200px;
+  /* width: 200px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-content: baseline;
-  text-align: center;
+  align-content: baseline; 
+  
+  the stuff above that's commented out is not necessary. we can see
+  this after doing the .plants stuff above. instead, we could just define
+  a max-width since right now it's getting pretty wide.
+  */
+  max-width: 200px;
 }
