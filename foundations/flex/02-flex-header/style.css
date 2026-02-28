@@ -30,12 +30,13 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 40px;
+  padding: 8px; /* adds 8px of padding all around so you don't need to worry about individual spacings */
 } 
 ul {
   display: flex;
-  gap: 20px;
-}
-.logo {
-  margin: 10px;
+  gap: 8px;
+  /* the stuff below removes any 
+  interfering default styles from the ul bruh */
+  margin: 0;
+  padding: 0;
 }
