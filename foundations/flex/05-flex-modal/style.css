@@ -85,3 +85,5 @@ button.cancel {
   flex-direction: column;
   gap: 8px;
 }
+/* sol just used different padding / margins and stuff but otherwise
+it looks like they both give the same outcome. */
