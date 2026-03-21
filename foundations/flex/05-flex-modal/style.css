@@ -67,3 +67,21 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+/* stuff I added below */
+.modal {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
