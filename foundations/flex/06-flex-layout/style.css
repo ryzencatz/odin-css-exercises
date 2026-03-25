@@ -24,3 +24,40 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* stuff I added */
+body {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+.footer {
+  background-color: #eee;
+}
+.content {
+  display: flex; /* this is what I was missing!
+  so display: flex; is short hand for 1 1 0 and it makes it so that
+  the stuff will fill all available space, which in this case is 100vh,
+  which is basically just the whole screen */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 16px;
+}
